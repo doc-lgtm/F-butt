@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>PowerStudio – La conexión no es privada</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px 30px; color: #222; background: #fff; }
+  h1 { color: #003087; border-bottom: 3px solid #003087; padding-bottom: 10px; }
+  h2 { color: #003087; margin-top: 36px; border-left: 4px solid #003087; padding-left: 12px; }
+  .answer { background: #f0f4ff; border-radius: 6px; padding: 12px 18px; margin: 8px 0; }
+  .note { background: #fff8e1; border-left: 4px solid #f9a825; padding: 10px 16px; margin: 12px 0; border-radius: 4px; font-size: 14px; }
+  .contact { background: #f0f4ff; border: 1px solid #003087; border-radius: 6px; padding: 14px 20px; margin: 20px 0; }
+  a { color: #0055a4; }
+  ol li { margin-bottom: 8px; }
+  footer { margin-top: 60px; border-top: 1px solid #ccc; padding-top: 14px; font-size: 13px; color: #666; }
+</style>
+</head>
+<body>
+
+<h1>PowerStudio — "La conexión no es privada"</h1>
+<p><em>Guía de soporte técnico para el aviso de certificado autofirmado</em></p>
+
+<div class="contact">
+  <strong>IoT &amp; Software Support Team</strong><br/>
+  Contacto: <a href="mailto:iot@circutor.com">iot@circutor.com</a> | Faisal B. | Eric V.
+</div>
+
+<h2>¿Por qué aparece este mensaje?</h2>
+<div class="answer">
+Al acceder a su equipo mediante Webserver con HTTPS (por ejemplo, Line-EDS, TCPRS1+, Line-TCPRS1, CVM-D50, CVM-D400, LM-D44, LM-A42, etc.), el navegador puede mostrar el mensaje <strong>"La conexión no es privada"</strong>.<br/><br/>
+Esto sucede porque estos equipos funcionan en redes locales y utilizan <strong>certificados autofirmados</strong>. Estos certificados son válidos y seguros para comunicaciones internas, pero al no estar emitidos por una entidad reconocida públicamente, el navegador no puede validar automáticamente su origen.
+</div>
+
+<div class="note">⚠️ El mensaje es simplemente una <strong>advertencia estándar del navegador</strong> y <strong>no indica ningún fallo ni problema de seguridad</strong>. El equipo está funcionando correctamente.</div>
+
+<h2>¿Cómo continuar de forma segura?</h2>
+
+<h3>Google Chrome</h3>
+<ol>
+  <li>Haz clic en <strong>Configuración avanzada</strong>.</li>
+  <li>Haz clic en <strong>Acceder a localhost (no seguro)</strong>.</li>
+</ol>
+
+<h3>Microsoft Edge</h3>
+<ol>
+  <li>Haz clic en <strong>Avanzado</strong>.</li>
+  <li>Haz clic en <strong>Continuar en localhost (no seguro)</strong>.</li>
+</ol>
+
+<h3>Mozilla Firefox</h3>
+<ol>
+  <li>Haz clic en <strong>Avanzado</strong>.</li>
+  <li>Haz clic en <strong>Aceptar el riesgo y continuar</strong>.</li>
+</ol>
+
+<div class="note">📝 El navegador recordará esta configuración y no volverá a mostrar el aviso en conexiones posteriores al mismo equipo.</div>
+
+<h2>Equipos afectados</h2>
+<div class="answer">
+  Line-EDS, TCPRS1+, Line-TCPRS1, CVM-D50, CVM-D400, LM-D44, LM-A42, y otros equipos Circutor con acceso Webserver vía HTTPS.
+</div>
+
+<footer>
+  <strong>FBR AI Support — IoT &amp; Software Support Team</strong><br/>
+  Faisal B. | Eric V. | <a href="mailto:iot@circutor.com">iot@circutor.com</a><br/>
+  Fuente: Plantilla_de_correo_La_conexión_no_es_privada_ES.docx
+</footer>
+</body>
+</html>

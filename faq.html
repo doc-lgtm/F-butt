@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>PowerStudio SCADA – Customer Support FAQ</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px 30px; color: #222; background: #fff; }
+  h1 { color: #003087; border-bottom: 3px solid #003087; padding-bottom: 10px; }
+  h2 { color: #003087; margin-top: 40px; border-left: 4px solid #003087; padding-left: 12px; }
+  h3 { color: #0055a4; margin-top: 24px; }
+  .lang-badge { display: inline-block; background: #003087; color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 13px; margin-right: 6px; }
+  .contact { background: #f0f4ff; border: 1px solid #003087; border-radius: 6px; padding: 14px 20px; margin: 20px 0; }
+  .note { background: #fff8e1; border-left: 4px solid #f9a825; padding: 10px 16px; margin: 12px 0; border-radius: 4px; font-size: 14px; }
+  .tip { background: #e8f5e9; border-left: 4px solid #43a047; padding: 10px 16px; margin: 12px 0; border-radius: 4px; font-size: 14px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+  td, th { border: 1px solid #ccc; padding: 8px 12px; text-align: left; }
+  th { background: #003087; color: #fff; }
+  code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-size: 14px; }
+  a { color: #0055a4; }
+  footer { margin-top: 60px; border-top: 1px solid #ccc; padding-top: 14px; font-size: 13px; color: #666; }
+</style>
+</head>
+<body>
+
+<h1>PowerStudio SCADA — Customer Support FAQ</h1>
+<p>
+  <span class="lang-badge">EN</span>
+  <span class="lang-badge">FR</span>
+  <span class="lang-badge">ES</span>
+</p>
+
+<div class="contact">
+  <strong>IoT &amp; Software Support Team</strong><br/>
+  For further assistance contact: <a href="mailto:iot@circutor.com">iot@circutor.com</a> | Faisal B. | Eric V.
+</div>
+
+<!-- ===================== ENGLISH ===================== -->
+<h2>🇬🇧 English — Frequently Asked Questions</h2>
+
+<h3>What is PowerStudio SCADA?</h3>
+<p>PowerStudio SCADA is Circutor's energy management software. Its main features are the configuration, communication and monitoring of electrical devices, together with the creation of SCADA screens and reports. It also includes tools such as events, calculated variables, a data export service and a driver management module.</p>
+
+<h3>What are the three main components of PowerStudio?</h3>
+<p><strong>PowerStudio SCADA Editor</strong> is the application design tool. <strong>PowerStudio SCADA Engine</strong> is the communications engine that runs the published application and stores data. <strong>PowerStudio SCADA Client</strong> is the visualisation module. In addition, <strong>PowerStudio SCADA Wave</strong> is the web-based administration interface accessible from any browser.</p>
+
+<h3>How do I access PowerStudio SCADA Wave?</h3>
+<p>Open any web browser and enter: <code>https://localhost:8091</code><br/>
+The default port is <strong>8091</strong>. If changed during installation, use the port specified at that time.</p>
+<div class="tip">💡 You can create a browser bookmark pointing to https://localhost:8091 to open Wave directly.</div>
+
+<h3>Why does the browser show a 'connection is not private' warning?</h3>
+<p>PowerStudio Wave uses HTTPS with a self-signed certificate. Because this certificate is not issued by a public certificate authority, browsers display a privacy warning on first connection. The connection is safe. To proceed:</p>
+<ol>
+  <li><strong>Chrome:</strong> click <em>Advanced settings</em>, then <em>Access localhost (not secure)</em>.</li>
+  <li><strong>Edge:</strong> click <em>Advanced</em>, then <em>Continue to localhost (not secure)</em>.</li>
+  <li><strong>Firefox:</strong> click <em>Advanced</em>, then <em>Accept the risk and continue</em>.</li>
+</ol>
+<div class="note">📝 The browser will remember this and will not display the warning again on subsequent connections.</div>
+
+<h3>What are the default login credentials?</h3>
+<table>
+  <tr><th>Role</th><th>User</th><th>Password</th></tr>
+  <tr><td>Administrator</td><td>admin</td><td>admin1234</td></tr>
+  <tr><td>Guest</td><td>user</td><td>user1234</td></tr>
+</table>
+<div class="tip">💡 Change passwords after first login in the Users section of the Wave interface.</div>
+
+<h3>Where can I download PowerStudio?</h3>
+<p>Download the latest version from: <a href="https://pssdocs.circutor.com/en/quickstart/download/" target="_blank">pssdocs.circutor.com/en/quickstart/download/</a><br/>
+Current version: <strong>24.11.3</strong>. After downloading, decompress the ZIP and run: <code>PowerStudio_Setup_24.x.x.x_x64.exe</code></p>
+
+<h3>What are the minimum system requirements?</h3>
+<ul>
+  <li><strong>Processor:</strong> Intel Core i5, 10th gen or equivalent. For VMs: minimum 8 cores.</li>
+  <li><strong>RAM:</strong> 16 GB</li>
+  <li><strong>Storage:</strong> 2 TB</li>
+  <li><strong>OS:</strong> Windows Server 2016 or later, or Windows 10 Pro or later.</li>
+  <li><strong>Network:</strong> Ethernet adapter required.</li>
+</ul>
+
+<h3>What license plans are available?</h3>
+<table>
+  <tr><th>Plan</th><th>Devices</th></tr>
+  <tr><td>Basic</td><td>Up to 25 devices</td></tr>
+  <tr><td>Pro</td><td>Up to 50 devices</td></tr>
+  <tr><td>Ultimate</td><td>Up to 500 devices</td></tr>
+  <tr><td>Enterprise</td><td>More than 500 devices</td></tr>
+</table>
+<p>To acquire a license: <a href="mailto:iot@circutor.com">iot@circutor.com</a></p>
+
+<h3>How do I activate a license online?</h3>
+<ol>
+  <li>Open <code>https://localhost:8091</code> and log in as administrator.</li>
+  <li>Go to <strong>Settings → Licenses → Activation online</strong>.</li>
+  <li>Enter your License ID and password, then click <strong>Accept</strong>.</li>
+</ol>
+<div class="note">📝 If the server has restricted internet access, allow https://secure.softwarekey.com through ports 50786 and 443.</div>
+
+<h3>How do I activate a license offline?</h3>
+<ol>
+  <li>Go to <strong>Settings → Licenses → Offline activation</strong>.</li>
+  <li>Generate the activation request file and save it.</li>
+  <li>Send the file to <a href="mailto:iot@circutor.com">iot@circutor.com</a>.</li>
+  <li>Load the activation file received from Circutor into Wave.</li>
+</ol>
+<p>More info: <a href="https://pssdocs.circutor.com/es/modules/license/offline/" target="_blank">pssdocs.circutor.com/es/modules/license/offline/</a></p>
+
+<h3>How do I migrate from PowerStudio 4.X to Wave?</h3>
+<ol>
+  <li>Back up the <strong>Cfg</strong>, <strong>Editor</strong> and <strong>Data</strong> folders.</li>
+  <li>Uninstall PowerStudio SCADA 4.X.</li>
+  <li>Install the new PowerStudio SCADA Wave package.</li>
+  <li>Open Wave at <code>https://localhost:8091</code>, go to <strong>Settings → Licenses</strong> and activate.</li>
+</ol>
+
+<!-- ===================== FRANÇAIS ===================== -->
+<h2>🇫🇷 Français — Foire Aux Questions</h2>
+
+<h3>Qu'est-ce que PowerStudio SCADA ?</h3>
+<p>PowerStudio SCADA est le logiciel de gestion de l'énergie de Circutor. Il permet la configuration, la communication et la surveillance des appareils électriques, ainsi que la création d'écrans SCADA et de rapports.</p>
+
+<h3>Comment accéder à PowerStudio SCADA Wave ?</h3>
+<p>Ouvrez un navigateur et saisissez : <code>https://localhost:8091</code><br/>
+Le port par défaut est <strong>8091</strong>.</p>
+
+<h3>Pourquoi le navigateur affiche-t-il un avertissement « connexion non privée » ?</h3>
+<p>PowerStudio Wave utilise HTTPS avec un certificat auto-signé. La connexion est sûre. Pour continuer :</p>
+<ol>
+  <li><strong>Chrome :</strong> cliquez sur <em>Paramètres avancés</em>, puis <em>Accéder à localhost (non sécurisé)</em>.</li>
+  <li><strong>Edge :</strong> cliquez sur <em>Avancé</em>, puis <em>Continuer vers localhost (non sécurisé)</em>.</li>
+  <li><strong>Firefox :</strong> cliquez sur <em>Avancé</em>, puis <em>Accepter le risque et continuer</em>.</li>
+</ol>
+
+<h3>Quels sont les identifiants de connexion par défaut ?</h3>
+<table>
+  <tr><th>Rôle</th><th>Utilisateur</th><th>Mot de passe</th></tr>
+  <tr><td>Administrateur</td><td>admin</td><td>admin1234</td></tr>
+  <tr><td>Invité</td><td>user</td><td>user1234</td></tr>
+</table>
+
+<!-- ===================== ESPAÑOL ===================== -->
+<h2>🇪🇸 Español — Preguntas Frecuentes</h2>
+
+<h3>¿Qué es PowerStudio SCADA?</h3>
+<p>PowerStudio SCADA es el software de gestión de energía de Circutor. Sus principales funcionalidades son la configuración, comunicación y monitorización de dispositivos eléctricos, junto con la creación de pantallas SCADA e informes.</p>
+
+<h3>¿Cómo accedo a PowerStudio SCADA Wave?</h3>
+<p>Abre cualquier navegador web e introduce: <code>https://localhost:8091</code><br/>
+El puerto por defecto es <strong>8091</strong>.</p>
+
+<h3>¿Por qué el navegador muestra el aviso "la conexión no es privada"?</h3>
+<p>PowerStudio Wave utiliza HTTPS con un certificado autofirmado. La conexión es segura. Para continuar:</p>
+<ol>
+  <li><strong>Chrome:</strong> haz clic en <em>Configuración avanzada</em>, luego en <em>Acceder a localhost (no seguro)</em>.</li>
+  <li><strong>Edge:</strong> haz clic en <em>Avanzado</em>, luego en <em>Continuar en localhost (no seguro)</em>.</li>
+  <li><strong>Firefox:</strong> haz clic en <em>Avanzado</em>, luego en <em>Aceptar el riesgo y continuar</em>.</li>
+</ol>
+
+<h3>¿Cuáles son las credenciales de acceso por defecto?</h3>
+<table>
+  <tr><th>Rol</th><th>Usuario</th><th>Contraseña</th></tr>
+  <tr><td>Administrador</td><td>admin</td><td>admin1234</td></tr>
+  <tr><td>Invitado</td><td>user</td><td>user1234</td></tr>
+</table>
+
+<h3>¿Dónde puedo descargar PowerStudio?</h3>
+<p>Descarga la última versión en: <a href="https://pssdocs.circutor.com/en/quickstart/download/" target="_blank">pssdocs.circutor.com/en/quickstart/download/</a><br/>
+Versión actual: <strong>24.11.3</strong>.</p>
+
+<h3>¿Qué planes de licencia están disponibles?</h3>
+<table>
+  <tr><th>Plan</th><th>Dispositivos</th></tr>
+  <tr><td>Basic</td><td>Hasta 25 dispositivos</td></tr>
+  <tr><td>Pro</td><td>Hasta 50 dispositivos</td></tr>
+  <tr><td>Ultimate</td><td>Hasta 500 dispositivos</td></tr>
+  <tr><td>Enterprise</td><td>Más de 500 dispositivos</td></tr>
+</table>
+
+<footer>
+  <strong>FBR AI Support — IoT &amp; Software Support Team</strong><br/>
+  Faisal B. | Eric V. | <a href="mailto:iot@circutor.com">iot@circutor.com</a><br/>
+  Source: PowerStudio_SCADA_CS_FAQ_v6.docx
+</footer>
+</body>
+</html>

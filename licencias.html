@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>PowerStudio Wave – Consulta de Alcances de Licencia</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px 30px; color: #222; background: #fff; }
+  h1 { color: #003087; border-bottom: 3px solid #003087; padding-bottom: 10px; }
+  h2 { color: #003087; margin-top: 36px; border-left: 4px solid #003087; padding-left: 12px; }
+  h3 { color: #0055a4; margin-top: 20px; }
+  .answer { background: #f0f4ff; border-radius: 6px; padding: 12px 18px; margin: 8px 0; }
+  .note { background: #fff8e1; border-left: 4px solid #f9a825; padding: 10px 16px; margin: 12px 0; border-radius: 4px; font-size: 14px; }
+  .contact { background: #f0f4ff; border: 1px solid #003087; border-radius: 6px; padding: 14px 20px; margin: 20px 0; }
+  a { color: #0055a4; }
+  footer { margin-top: 60px; border-top: 1px solid #ccc; padding-top: 14px; font-size: 13px; color: #666; }
+</style>
+</head>
+<body>
+
+<h1>PowerStudio Wave — Consulta de Alcances Técnicos de Licencia</h1>
+<p><em>Software de medidores de energía – PowerStudio Wave | Circutor</em></p>
+
+<div class="contact">
+  <strong>IoT &amp; Software Support Team</strong><br/>
+  Contacto: <a href="mailto:iot@circutor.com">iot@circutor.com</a> | Faisal B. | Eric V.
+</div>
+
+<h2>1. Compatibilidad con PowerStudio SCADA v4.x</h2>
+
+<h3>¿La estructura Editor – Cliente – Motor mantiene las mismas funcionalidades?</h3>
+<div class="answer">Se mantienen las mismas funcionalidades. La parte del motor está migrada a Wave, por lo que ya no se instala PSS Engine Manager. Ahora esta parte está disponible en la web de Wave:<br/>
+<a href="https://pssdocs.circutor.com/es/modules/settings/engine/" target="_blank">pssdocs.circutor.com/es/modules/settings/engine/</a></div>
+
+<h3>¿Los mismos límites de usuarios, proyectos y dispositivos?</h3>
+<div class="answer">No hay límite de usuarios ni proyectos en el PSS Editor. La única diferencia entre licencias es el número de equipos permitidos:<br/>
+<a href="https://pssdocs.circutor.com/es/home/license/" target="_blank">pssdocs.circutor.com/es/home/license/</a></div>
+
+<h3>¿Existe alguna funcionalidad de v4.x que no esté soportada en PowerStudio Wave?</h3>
+<div class="answer">No. La aplicación utilizada para la versión 4.32.X es completamente compatible con Wave. La migración es un proceso transparente para las aplicaciones.</div>
+
+<h3>¿El proveedor garantiza compatibilidad en futuras actualizaciones de Wave?</h3>
+<div class="answer">Sí. Antes de lanzar Wave se garantizó que debía ser 100% compatible con cualquier proyecto anterior.</div>
+
+<h2>2. Comunicaciones HTTPS y Ciberseguridad</h2>
+
+<h3>¿Qué versiones de TLS/SSL utiliza el software?</h3>
+<div class="answer">TLS versión 1.2. El programa utiliza un certificado autofirmado por Circutor.</div>
+
+<h3>¿Existen limitaciones en entornos sin acceso a HTTPS corporativo?</h3>
+<div class="answer">No. PSS Wave tiene HTTPS implementado, pero se puede acceder vía HTTP si se configura de esa forma. Todo depende de cómo se configure el motor del PC donde corre PowerStudio.</div>
+
+<h3>¿Impacta el rendimiento del sistema?</h3>
+<div class="answer">No. Tanto con HTTPS como con HTTP el rendimiento es el mismo.</div>
+
+<h2>3. Sistema de Licenciamiento Online</h2>
+
+<h3>¿La activación online es perpetua?</h3>
+<div class="answer">La activación es permanente, pero el programa comprueba periódicamente que el PC tenga acceso a internet. Si pierde conexión, la licencia dejará de funcionar hasta que se recupere. Si esto es un problema, se puede activar de forma offline.</div>
+
+<h3>¿La licencia es por servidor, por dispositivos o por módulos?</h3>
+<div class="answer">Una licencia se puede activar en un solo PC/servidor. El número de dispositivos depende de la licencia adquirida. La licencia puede migrarse de PC sin coste adicional: se desactiva en el PC actual y se activa en el nuevo.</div>
+
+<h3>¿Qué ocurre si el servidor queda sin conexión a internet?</h3>
+<div class="answer">Con activación online, la licencia se detendrá después de un período de gracia. Se recomienda activar de forma offline para evitar este problema:<br/>
+<a href="https://pssdocs.circutor.com/es/modules/license/offline/" target="_blank">pssdocs.circutor.com/es/modules/license/offline/</a></div>
+
+<h3>¿Cuántas migraciones de licencia están permitidas?</h3>
+<div class="answer">Todas las que se quieran. Por defecto tienen 1 activación. Al desactivarla se recupera esa activación, permitiendo moverla a otro PC/servidor sin restricciones ni coste adicional.</div>
+
+<footer>
+  <strong>FBR AI Support — IoT &amp; Software Support Team</strong><br/>
+  Faisal B. | Eric V. | <a href="mailto:iot@circutor.com">iot@circutor.com</a><br/>
+  Fuente: Consulta_de_alcances_licencia_contadores_de_energia_.docx
+</footer>
+</body>
+</html>
